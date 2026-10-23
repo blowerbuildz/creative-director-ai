@@ -31,9 +31,11 @@ details p{color:var(--muted);margin-top:8px;font-size:15px}
 .price{color:var(--accent);font-weight:700}
 footer{margin-top:56px;color:var(--muted);font-size:13px;border-top:1px solid #1f1f1f;padding-top:20px}
 a{color:var(--accent)}
-label{display:block;font-size:13px;color:var(--muted);margin:14px 0 4px}
-input[type=text],input[type=email]{width:100%;padding:12px 14px;border-radius:8px;border:1px solid #333;background:#141414;color:var(--text);font-size:16px}
-button{margin-top:22px;width:100%;padding:16px;border:none;border-radius:10px;background:var(--accent);color:#fff;font-size:18px;font-weight:700}
+.samples{display:grid;grid-template-columns:1fr;gap:12px;margin-top:14px}
+@media(min-width:560px){.samples{grid-template-columns:1fr 1fr}}
+.samples img{width:100%;height:auto;display:block;border-radius:8px;border:1px solid #262626;aspect-ratio:16/9;background:#141414}
+.samples figcaption{color:var(--muted);font-size:12px;margin-top:4px}
+.note{color:var(--muted);font-size:14px}
 </style>
 </head>
 <body>
@@ -50,9 +52,20 @@ button{margin-top:22px;width:100%;padding:16px;border:none;border-radius:10px;ba
     <li>10 custom thumbnails, one for each video title you submit</li>
     <li>3 concept variations per title, 30 concepts total</li>
     <li>Delivered to your inbox as download-ready files sized for YouTube (1280x720)</li>
-    <li>No watermarks. No templates. No Canva layouts.</li>
+    <li>No watermarks. Finished files, not a Canva layout you have to edit yourself.</li>
     <li>Every concept is built around two things your viewer does before clicking: pattern interrupt and value signal</li>
   </ul>
+
+  <h2>Sample thumbnails</h2>
+  <p class="note">These are samples we made ourselves with our own thumbnail tool, from two made-up example titles. They are not customer work and not results. Your pack is built from your own titles.</p>
+  <div class="samples">
+    <figure><img loading="lazy" alt="Sample thumbnail, bold hook layout: EDIT 3X FASTER" src="https://static.wixstatic.com/media/345002_c542142536bc4bc5ada70e71e39dc9b2~mv2.png"><figcaption>Sample 1A, bold hook. Example title: How I Edit YouTube Videos 3x Faster</figcaption></figure>
+    <figure><img loading="lazy" alt="Sample thumbnail, object glow layout: EDIT 3X FASTER" src="https://static.wixstatic.com/media/345002_2387759a052d4ffda49bdd6f9330d39a~mv2.png"><figcaption>Sample 1B, object glow</figcaption></figure>
+    <figure><img loading="lazy" alt="Sample thumbnail, number-led layout: 3X EDIT FASTER" src="https://static.wixstatic.com/media/345002_bd23d7fc91e6498a8fb83fb330cebae4~mv2.png"><figcaption>Sample 1C, number led</figcaption></figure>
+    <figure><img loading="lazy" alt="Sample thumbnail, bold hook layout: CHANNEL NOT GROWING?" src="https://static.wixstatic.com/media/345002_1fa6e55c15654f2d906e6ef217e02246~mv2.png"><figcaption>Sample 2A, bold hook. Example title: Why Your Small Channel Is Not Growing</figcaption></figure>
+    <figure><img loading="lazy" alt="Sample thumbnail, object glow layout: CHANNEL NOT GROWING?" src="https://static.wixstatic.com/media/345002_757fc78d9ddf44e18d2f6c05777b7415~mv2.png"><figcaption>Sample 2B, object glow</figcaption></figure>
+    <figure><img loading="lazy" alt="Sample thumbnail, before and after split layout: CHANNEL NOT GROWING?" src="https://static.wixstatic.com/media/345002_d9f62e6c03de4d5dbdb63f87c5fb27d2~mv2.png"><figcaption>Sample 2C, before and after split</figcaption></figure>
+  </div>
 
   <h2>How it works</h2>
   <div class="step"><div class="n">1</div><h3>Order your pack</h3><p>Pay <span class="price">$27</span> through secure Stripe checkout. One time, done.</p></div>
@@ -66,7 +79,7 @@ button{margin-top:22px;width:100%;padding:16px;border:none;border-radius:10px;ba
   <details><summary>What happens after I pay?</summary><p>You get a short order form. Fill in your 10 titles, channel name and niche. Your concepts arrive by email within 24 hours of the form.</p></details>
   <details><summary>What if I don't like a concept?</summary><p>Every title gets 3 concepts, so you always have options. If one still misses, we rebuild it once, free.</p></details>
   <details><summary>How is this different from Canva?</summary><p>Canva hands you a template and every decision. We take your titles and hand back finished concepts built to earn the click.</p></details>
-  <details><summary>Who builds the thumbnails?</summary><p>The Creative Director AI team. This is a done-for-you service, not an app.</p></details>
+  <details><summary>Who builds the thumbnails?</summary><p>The Creative Director AI team, using our own thumbnail tool, with every file checked before it is sent. This is a done-for-you service, not an app.</p></details>
 
   <footer>Creative Director AI, built for YouTube creators. Questions? <a href="mailto:dynamiccloser@gmail.com">dynamiccloser@gmail.com</a></footer>
 </div>
